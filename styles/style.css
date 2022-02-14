@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    margin: 0px auto;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-number {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+
+.blank {
+    width: 4.8%;
+}
+
+.r-number {
+    width: 9.52%;
+    text-align: center;
+    padding-top: 1%;
+    background-color: rgba(128, 128, 128, 0.651);
+    border: 1px solid white;
+}
+
+.column-number {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 500px;
+}
+
+.c-number {
+    height: 10%;
+    text-align: center;
+    padding-top: 50%;
+    background-color: rgba(128, 128, 128, 0.651);
+    border: 1px solid white;
+}
+
+.cell {
+    width: 10%;
+    height: 10%;
+    padding: 2px;
+    background-color: lightgray;
+    color: lightgray;
+    font-size: 1px;
+    border: 1px solid white;
+}
+
+.water {
+    background-color: navy;
+    color: navy;
+}
+
+.ship {
+    background-color: red;
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.show {
+    border: 1px solid orange;
+}
